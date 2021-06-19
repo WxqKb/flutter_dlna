@@ -124,7 +124,7 @@ class SetUrl extends AbsDLNAAction<String> {
         DateTime.now().millisecondsSinceEpoch);
     var title = HtmlEscape().convert(didlObject.title!);
     var url = HtmlEscape().convert(didlObject.url!);
-    return """<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+    return """<?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
 <s:Body>
 <u:SetAVTransportURI xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">

@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
         'https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/segment/1g-pPVjSpOg3_4D6nvhw7KiluHh3LpyE-NZ_E2wieRg56PHHRuMtWKHPNKocP1OH.m3u8?pkey=AAJGzPf9ILXLcxtiJQC0ZiFC2jpgYlRAZa2PKhWvP-j2pEXQaMEMuLVVwvzvbNwlKX9l-gc6hbgl7qtF8sYYnPxZkWALszZBrg4apKn1okNwYo2SDS7Ma7-T1Btfju0cTUMCzBwRYJFXgvJaD3_tSfPg2uOK6hYR02Gld5-5hC4WxS8tWyOSA2o5oHckoO4rHtfZL657h2iueCKRCWVsQ-wqUTkBTifBw_8sqxCux2mmeQ&safety_id=AALiHMNr8NZQFMcXpIGj-KRo';
     _didlObject = VideoObject(
         title,
-        'https://vod3.buycar5.cn/20201030/Fk3mpLH6/index.m3u8',
+        'https://cvte-dev-public.seewo.com/chenjiakun-test/f299008e4798425b869ec30a3d22feb5',
         VideoObject.VIDEO_MP4);
     _didlObject.refreshPosition = true;
     widget.dlnaManager.setRefresher(DeviceRefresher(onDeviceAdd: (dlnaDevice) {

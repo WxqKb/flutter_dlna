@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
 
 import '../dlna_action_result.dart';
@@ -29,6 +30,15 @@ abstract class AbsDLNAAction<T> {
           requestHeader: false,
           responseHeader: false));
     }
+    // (http.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
+    //     (client) {
+    //   // const charlesIp =
+    //   //     String.fromEnvironment('CHARLES_PROXY', defaultValue: null);
+    //   // if (charlesIp == null) return;
+    //
+    //   client.findProxy = (_) => 'PROXY 192.168.1.122:8888';
+    //   client.badCertificateCallback = (cer, host, port) => true;
+    // };
     return http;
   }
 
